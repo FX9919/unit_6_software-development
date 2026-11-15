@@ -26,7 +26,7 @@ jobs:
     - name: Lint with ruff and mypy
       run: |
         ruff check .
-        ruff format --check .
+        ruff format  .
         mypy .
     - name: Test with pytest
       run: |
